@@ -1,0 +1,125 @@
+.login-screen {
+    background: url('../../assets/images/login-bg.png') no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    .row {
+        .login-card {
+            border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.15);
+            .card-img {
+                img {
+                    width: 100%;
+                }
+            }
+            .card-body {
+                padding: 2rem;
+            }
+        }
+    }
+}
+
+.register-screen {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(255, 247, 206, 1) 30%);
+    .register-card {
+        border-radius: 1.5rem;
+        overflow: hidden;
+        box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.15);
+        .row {
+            .col-5 {
+                background-repeat: no-repeat;
+                background-position: -12rem 18rem;
+                background-size: 170%;
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+.host-bg-color {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(232, 236, 236, 1) 30%);
+}
+
+.form-input-section {
+    margin-bottom: 1.5rem;
+    input[type='text'],
+    input[type='password'],
+    input[type='email'],
+    input[type='number'] {
+        width: 100%;
+        background-color: #f4f5f3;
+        border-radius: 1rem;
+        height: 3.5rem;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        padding: 0 2rem;
+        &::placeholder {
+            font-weight: 500;
+            color: #ababab;
+        }
+    }
+    input[type='checkbox'] {
+        margin-right: 0.25rem;
+    }
+    .form-utility {
+        margin: 1rem 0 4.5rem 0;
+    }
+    .field-checks {
+        position: absolute;
+        right: 1rem;
+        width: 1.25rem;
+        top: 55%;
+        transform: translateY(-40%);
+    }
+    button {
+        border-radius: 1.5rem;
+        color: #fff;
+        padding: 0.5rem 4rem;
+        font-size: 1.25rem;
+    }
+    .bg-color-1 {
+        background-color: #1e3f46;
+    }
+    .bg-color-2 {
+        background-color: #5f5f5f;
+    }
+}
+
+.line-break {
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+    line-height: 0em;
+    span {
+        background: #fff;
+        padding: 0 0.75rem;
+    }
+}
+
+.yellow-bg {
+    background-color: #ffe55c;
+}
+
+.green-blue-bg {
+    background-color: #1e3f46;
+}
+
+.yellow-line-break {
+    border-bottom: 0.1rem solid #ffd62c;
+}
+
+.green-blue-line-break {
+    border-bottom: 0.1rem solid #1e3f46;
+}
+
+.o-auth {
+    img {
+        width: 10%;
+        margin: 0 1.5rem;
+    }
+}
+
+.horizontal-padding {
+    padding: 0 8rem;
+}

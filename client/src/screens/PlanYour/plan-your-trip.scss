@@ -1,0 +1,254 @@
+.travel-budget {
+    .row {
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.become-nomad {
+    position: relative;
+    background: url('../../assets/images/nomad.svg') no-repeat right;
+    background-size: 38%;
+    img {
+        margin: 1rem 0;
+        width: 25%;
+    }
+}
+
+.what-is-nomad {
+    background-color: #ffe55c;
+    padding: 4rem 0;
+    .row {
+        margin: 2rem 4rem;
+        .card {
+            padding: 3.5rem 2.5rem;
+            border-radius: 2rem;
+            box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.15);
+        }
+    }
+}
+
+.expand-list {
+    .head {
+        position: relative;
+        img {
+            width: 12.5%;
+            float: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    ol {
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+        list-style-position: inside;
+        padding: 0.5rem;
+        counter-reset: li;
+        li {
+            margin-bottom: 2rem;
+            &::after {
+                content: '';
+                display: block;
+                padding-bottom: 0.2rem;
+                width: 90%;
+                border-bottom: 0.1rem solid #ffd62c;
+            }
+            span {
+                float: right;
+                margin-right: 4rem;
+            }
+        }
+        .sign {
+            font-size: 4rem;
+        }
+        .opened-contents {
+            margin: -1rem 0 -2rem -1rem;
+            background-color: #fff9df;
+            border-radius: 1.5rem;
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            padding: 2rem;
+            .p3 {
+                margin: 0.25rem 0 0 -1rem;
+                padding: 1rem 0;
+                .bullet {
+                    margin: 0.65rem 1.3rem 0 0.65rem;
+                    width: 0.6rem;
+                    height: 0.5rem;
+                    background-color: #333333;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .show {
+            max-height: 100%;
+            opacity: 1;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.q-a {
+    .row {
+        position: relative;
+        background-color: #ffe55c;
+        margin-top: 5rem;
+        padding: 6rem 7rem;
+        .col-sm-6 {
+            .number {
+                span {
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 6rem;
+                    width: 8rem;
+                }
+                .line {
+                    width: 100%;
+                    height: 0.5rem;
+                    background-color: #ffd700;
+                }
+            }
+            .odd {
+                span {
+                    color: #ffffff;
+                    border: 0.5rem solid #ffd700;
+                }
+                .line {
+                    background-color: #ffd700;
+                }
+            }
+            .even {
+                span {
+                    border: 0.5rem solid #204147;
+                }
+                .line {
+                    background-color: #204147;
+                }
+            }
+            .info {
+                width: 60%;
+            }
+            .info-even {
+                width: 80%;
+            }
+            .text-column {
+                padding: 4rem 0 4rem 5rem;
+            }
+            .card {
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                padding: 0rem 3rem;
+                height: 48rem;
+                box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.15);
+                border-radius: 2rem;
+                p {
+                    padding: 0.25rem 0;
+                }
+                .btn-div {
+                    img {
+                        margin: 1.5rem 0;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .row-buffer {
+        height: 10rem;
+    }
+}
+
+.gray-info {
+    background-color: #e8ecec !important;
+}
+
+.green-blue {
+    color: #204147 !important;
+}
+
+.pros-cons {
+    .row {
+        .col-sm-5 {
+            text-align: center;
+            img {
+                margin-top: -0.5rem;
+                width: 80%;
+            }
+        }
+        .col-sm-7 {
+            h2::after {
+                content: '';
+                display: block;
+                padding-bottom: 0.5rem;
+                border-bottom: 0.15rem solid #ffd62c;
+            }
+            ul {
+                li {
+                    font-size: 1.5rem;
+                    margin-top: 1.75rem;
+                    color: #ffd62c;
+                }
+            }
+        }
+    }
+    .con {
+        text-align: right;
+        h2::after {
+            border-bottom: 0.15rem solid #204147 !important;
+        }
+        ul {
+            direction: rtl;
+            li {
+                color: #0ea89c !important;
+            }
+        }
+    }
+}
+
+.page-connect {
+    padding: 4rem 0;
+    img {
+        width: 15%;
+    }
+    .add-line-break {
+        line-height: 3.5rem;
+    }
+}
+
+.plans-pricing {
+    .row {
+        .card-col {
+            .price-card {
+                margin: 4rem 0;
+                border-radius: 2rem;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 1) 65%, rgba(255, 249, 223, 1) 85%);
+                .img-row {
+                    height: 17.5rem;
+                }
+                .shift-up {
+                    margin-top: -2rem;
+                    .feature-list {
+                        height: 18rem;
+                        .feature {
+                            margin: 0.5rem 0 1rem 0;
+                            img {
+                                width: 3%;
+                                height: 2%;
+                                margin: 0.35rem 0.75rem 0 0.25rem;
+                            }
+                        }
+                    }
+                }
+                .plan-trip-btn {
+                    width: 30%;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

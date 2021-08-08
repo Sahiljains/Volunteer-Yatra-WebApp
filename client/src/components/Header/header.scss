@@ -1,0 +1,47 @@
+@import '../../responsive.scss';
+.top-index {
+    position: relative;
+    z-index: 2;
+}
+
+.container-fluid {
+    .navbar {
+        .navbar-brand {
+            img {
+                width: 20rem;
+                @include responsive(tablet) {
+                    width: 18rem;
+                }
+                @include responsive(mobile) {
+                    width: 12rem;
+                }
+                @include responsive(mobile-small) {
+                    width: 10rem;
+                }
+            }
+        }
+        .navbar-nav {
+            margin-right: 2.5rem;
+            li {
+                height: 2.25rem;
+                img {
+                    margin-left: 0.15rem;
+                    width: 0.6rem;
+                    @include responsive(tablet) {
+                        width: 0.4rem;
+                    }
+                }
+            }
+            .btn-login {
+                margin-top: 0.25rem;
+                padding: 0.25rem;
+                width: 4rem;
+                background-color: rgba(77, 77, 77, 0.2);
+                border-radius: 1rem;
+            }
+            @include responsive(tablet-extra-large) {
+                margin-right: 0;
+            }
+        }
+    }
+}

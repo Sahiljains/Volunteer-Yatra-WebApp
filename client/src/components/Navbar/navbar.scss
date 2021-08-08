@@ -1,0 +1,51 @@
+@import '../../responsive.scss';
+.second-navbar {
+    background-color: #FFE55C;
+    .navbar-nav {
+        color: #333333;
+    }
+    .column {
+        .nav-item {
+            img {
+                margin-top: -0.05rem;
+                margin-left: 0.05rem;
+                width: 0.5rem;
+                @include responsive(tablet-extra-large) {
+                    display: none;
+                }
+            }
+            .dropdown-menu {
+                color: #333333;
+                display: none;
+                .dropdown-item {
+                    padding: 0.5rem 1rem;
+                    &:hover {
+                        background-color: #FFE55C;
+                    }
+                }
+            }
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+                @include responsive(tablet-extra-large) {
+                    .dropdown-menu {
+                        display: none;
+                    }
+                }
+            }
+        }
+        @include responsive(mobile) {
+            font-size: 0.75rem;
+        }
+        .nav-link {
+            @include responsive(mobile) {
+                margin-left: 0 !important;
+            }
+        }
+        @include responsive(mobile) {
+            flex-basis: unset;
+            max-width: 50%;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.key-benefits {
+    .row {
+        .info-key-col {
+            padding: 2rem;
+            text-align: center;
+            img {
+                width: 18rem;
+                height: 18rem;
+            }
+        }
+    }
+}
+
+.project-type {
+    .row {
+        .col-6 {
+            padding: 0 3rem;
+        }
+        .projects-list {
+            .project-item {
+                img {
+                    width: 5rem;
+                }
+                .underline-item {
+                    margin: -1.5rem 0 2rem -1.5rem;
+                    position: relative;
+                    .bulb {
+                        position: absolute;
+                        width: 1.15rem;
+                        height: 1.15rem;
+                        border-radius: 50%;
+                        background-color: #ffd700;
+                    }
+                    .line {
+                        position: absolute;
+                        margin: 0.35rem 0 0 0.35rem;
+                        width: 130%;
+                        height: 0.45rem;
+                        background-color: #ffd700;
+                    }
+                }
+            }
+        }
+        .project-card-col {
+            .project-info-card-img {
+                width: 30rem;
+            }
+            .project-info-card {
+                background-color: #ffffff;
+                border-radius: 1.5rem;
+                width: 25rem;
+                height: 30.5rem;
+                margin: 1rem 0 0 -1rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                img {
+                    margin: 2rem 0;
+                    width: 5rem;
+                }
+            }
+        }
+    }
+}
+
+.skilled-people {
+    .skills-row {
+        .skill {
+            width: 7.5rem;
+            height: 7.5rem;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    }
+}

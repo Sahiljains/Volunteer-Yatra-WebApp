@@ -1,0 +1,71 @@
+@import '../../responsive.scss';
+.bg-image-container {
+    position: relative;
+    .imgSrc {
+        width: 100%;
+    }
+    .move-up {
+        margin-top: -6rem;
+        display: flow-root;
+        margin-bottom: 1.4rem;
+    }
+    .container-fluid {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        .first-row {
+            display: flex;
+            align-items: center;
+            margin: auto;
+            height: 100%;
+            .main-title {
+                img {
+                    color: #fff;
+                    width: 40rem;
+                    @include responsive(tablet) {
+                        width: 20rem;
+                    }
+                    @include responsive(mobile) {
+                        width: 10rem;
+                    }
+                }
+                .title {
+                    width: 60rem;
+                    font-size: 7rem;
+                    color: #fff;
+                    margin-top: 5rem;
+                    line-height: 8rem;
+                }
+            }
+            .community-button {
+                margin-top: 7.5rem;
+                width: 18rem;
+                cursor: pointer;
+                @include responsive(tablet-extra-large) {
+                    margin-top: 4rem;
+                }
+                @include responsive(tablet) {
+                    margin-top: 3rem;
+                    width: 14rem;
+                }
+                @include responsive(mobile) {
+                    margin-top: 1rem;
+                    width: 6rem;
+                }
+            }
+        }
+        @include responsive(desktop-medium) {
+            left: 4rem;
+        }
+        @include responsive(tablet-extra-large) {
+            left: 2rem;
+        }
+        @include responsive(tablet) {
+            left: 1.5rem;
+        }
+        @include responsive(mobile) {
+            left: 0rem;
+        }
+    }
+}

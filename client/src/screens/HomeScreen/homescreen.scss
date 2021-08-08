@@ -1,0 +1,176 @@
+@import '../../responsive.scss';
+$image-top: 2.5rem;
+$image-width: 15.5rem;
+$image-height: 20rem;
+$image-border-radius: 1.5rem;
+.what-is-vy {
+    margin-top: -2.5rem;
+    margin-left: -5rem;
+    width: 25rem;
+}
+
+.connect-to-hosts {
+    .host-items {
+        margin-bottom: 12rem !important;
+        margin-top: 1.5rem;
+        background-image: url('../../assets/images/connect_with_hosts.svg');
+        background-repeat: no-repeat;
+        .row {
+            .col {
+                margin-top: -0.5rem;
+                .frame-container {
+                    cursor: pointer;
+                    position: relative;
+                    text-align: center;
+                    .main-image {
+                        margin-top: $image-top;
+                        width: $image-width;
+                        height: $image-height;
+                        border-radius: $image-border-radius;
+                        border: 0.2rem solid #555555;
+                        padding: 0.25rem;
+                    }
+                    .image-overlay {
+                        position: absolute;
+                        background-color: rgba(0, 0, 0, 0.3);
+                        left: 0.5rem;
+                        margin-top: $image-top + 0.5rem;
+                        width: $image-width - 1rem;
+                        height: $image-height - 1rem;
+                        border-radius: $image-border-radius - 0.5rem;
+                        padding: 0.25rem;
+                    }
+                    .img-title {
+                        top: 18.5rem;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        position: absolute;
+                        color: #fff;
+                        font-size: 1.5rem;
+                        @include responsive(mobile) {
+                            top: 12rem;
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+            @include responsive(tablet-extra-large) {
+                margin-top: -2.5rem;
+            }
+        }
+        @include responsive(tablet-extra-large) {
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+.testimonial-section {
+    .row {
+        .col-sm-5 {
+            text-align: center;
+            .testimonial-image {
+                width: 75%;
+                border-radius: 50%;
+                border: 0.2rem solid #ffd62c;
+                padding: 0.75rem;
+            }
+            .arrow-signs {
+                img {
+                    width: 2rem;
+                    cursor: pointer;
+                }
+                .left-shift {
+                    float: left;
+                }
+                .right-shift {
+                    float: right;
+                }
+            }
+        }
+        .col-sm-7 {
+            .blog-data {
+                margin-top: 4rem;
+                .blog-title::after {
+                    content: '';
+                    display: block;
+                    padding-bottom: 0.2rem;
+                    width: 85%;
+                    border-bottom: 0.1rem solid #ffd62c;
+                }
+                .blog-description {
+                    width: 80%;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 4;
+                    -webkit-box-orient: vertical;
+                    img {
+                        margin-left: 1rem;
+                        width: 18%;
+                    }
+                }
+                .blog-info {
+                    margin-top: 1rem;
+                    h6 {
+                        margin: 0 !important;
+                    }
+                    .blog-interactions {
+                        margin: auto 2rem;
+                        img {
+                            width: 1.25rem;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.participate {
+    background: url('../../assets/images/how-to-participate-bg.svg') no-repeat;
+    .container-fluid {
+        padding-top: 12rem;
+        padding-bottom: 1rem;
+    }
+    .row {
+        background-color: #ffe55c;
+        padding: 0 2rem;
+        text-align: center;
+        img {
+            height: 20rem;
+        }
+        h3 {
+            margin: 1rem auto;
+            width: 100%;
+            font-size: 2rem !important;
+            height: 7.5rem;
+        }
+        .p2 {
+            width: 100% !important;
+        }
+    }
+    .check-out-plans {
+        background-color: #ffe55c;
+        img {
+            width: 18%;
+            margin: 3rem auto;
+        }
+    }
+}
+
+.questions {
+    .row {
+        .btn-row {
+            img {
+                width: 12rem;
+                margin: 1rem 2.5rem 0 0;
+            }
+        }
+        .jini {
+            text-align: center;
+            img {
+                width: 80%;
+            }
+        }
+    }
+}

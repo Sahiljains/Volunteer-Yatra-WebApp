@@ -1,0 +1,130 @@
+@import '../../responsive.scss';
+
+.text-box {
+    .search-textbox {
+        display: flex;
+        border: 0.2rem solid #ededed;
+        width: 100%;
+        height: 4rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 1.85rem;
+        .search-input-box {
+            width: 95%;
+            height: 3rem;
+            left: 0;
+            background-color: #ededed;
+            border-radius: 1.75rem;
+            margin: 0 0.45rem;
+            .search-input {
+                font-size: 1.15rem;
+                position: absolute;
+                background: transparent;
+                left: 3rem;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .search-icon {
+                left: 1rem;
+                width: 1.5rem;
+            }
+        }
+    }
+}
+
+.rectangle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: black;
+  }
+
+img {
+    width: 20rem;
+    @include responsive(tablet) {
+        width: 18rem;
+    }
+    @include responsive(mobile) {
+        width: 12rem;
+    }
+    @include responsive(mobile-small) {
+        width: 10rem;
+    }
+}
+
+.navbar-nav {
+    margin-right: 2.5rem;
+    li {
+        height: 2.25rem;
+        img {
+            margin-left: 0.15rem;
+            width: 0.6rem;
+            @include responsive(tablet) {
+                width: 0.4rem;
+            }
+        }
+    }
+   
+}
+
+.btn-logout {
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+    width: 4rem;
+    background-color: rgba(77, 77, 77, 0.2);
+    border-radius: 1rem;
+}
+@include responsive(tablet-extra-large) {
+    margin-right: 0;
+}
+
+.second-navbar {
+    background-color: #FFE55C;
+    .navbar-nav {
+        color: #333333;
+    }
+    .column {
+        .nav-item {
+            img {
+                margin-top: -0.05rem;
+                margin-left: 0.05rem;
+                width: 0.5rem;
+                @include responsive(tablet-extra-large) {
+                    display: none;
+                }
+            }
+            .dropdown-menu {
+                color: #333333;
+                display: none;
+                .dropdown-item {
+                    padding: 0.5rem 1rem;
+                    &:hover {
+                        background-color: #FFE55C;
+                    }
+                }
+            }
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+                @include responsive(tablet-extra-large) {
+                    .dropdown-menu {
+                        display: none;
+                    }
+                }
+            }
+        }
+        @include responsive(mobile) {
+            font-size: 0.75rem;
+        }
+        .nav-link {
+            @include responsive(mobile) {
+                margin-left: 0 !important;
+            }
+        }
+        @include responsive(mobile) {
+            flex-basis: unset;
+            max-width: 50%;
+        }
+    }
+}
+

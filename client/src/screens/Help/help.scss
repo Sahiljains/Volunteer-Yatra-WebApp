@@ -1,0 +1,123 @@
+$left: 4rem;
+.help-main {
+    background-color: #ffe76c;
+    .help-container {
+        position: relative;
+        padding: 10rem 0;
+        .tree-img {
+            width: 16rem;
+            position: absolute;
+            bottom: 0;
+            right: 5rem;
+        }
+    }
+}
+
+.text-box {
+    z-index: 99;
+    width: 100%;
+    position: relative;
+    .search-textbox {
+        font-size: 2rem;
+        .search-icon,
+        .search-input-box {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .search-icon {
+            width: 2rem;
+            left: $left;
+        }
+        .search-input-box {
+            width: 80%;
+            left: $left * 1.75;
+            color: #4d4d4d;
+            font-weight: 500;
+            background-color: transparent;
+            &::placeholder {
+                color: #4d4d4d;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.button-redirect-row {
+    display: flex;
+    justify-content: center;
+    button {
+        width: 18rem;
+        padding: 1.25rem 1.5rem;
+        background-color: #ffffff !important;
+        border: 0.15rem solid #333333;
+        border-radius: 1.5rem;
+    }
+}
+
+.recent-container {
+    color: #4d4d4d !important;
+    .activities-list {
+        .activity {
+            label {
+                color: #4d4d4d !important;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            margin: 1.5rem 0;
+            border-bottom: 0.15rem solid #ffe76c;
+            .content {
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.articles,
+.article {
+    padding: 0 2.5rem;
+    .search-textbox {
+        font-size: 1.25rem;
+        .search-icon {
+            width: 1.25rem;
+            left: $left / 2;
+        }
+        .search-input-box {
+            left: $left;
+        }
+    }
+    .info-row {
+        .info-list {
+            .p4 {
+                label {
+                    border-bottom: 0.15rem solid #ffe76c;
+                    padding-right: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.recent-articles-section {
+    background-image: url('../../assets/images/how-to-participate-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .article-row {
+        padding-top: 10rem;
+    }
+}
+
+.add-border-bottom {
+    border-bottom: 0.15rem solid #ffe76c;
+}
+
+.links-div {
+    .link-div {
+        img {
+            width: 5rem;
+        }
+    }
+}

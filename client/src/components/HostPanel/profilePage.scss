@@ -1,0 +1,254 @@
+
+.profilename{
+    font-weight: bold;
+	margin-top: 10px;
+	margin-left: 35px;
+	cursor: default;
+
+
+}
+.briefinfo{
+	font-size: 15px;
+	margin-top: 5px;
+	cursor: pointer;
+	opacity: 0.6;
+	
+	
+
+}
+#basicinfo1{
+	width: 300px;
+}
+#basicinfo2{
+	width: 300px;
+	margin-left: 50px;
+
+}
+.basichostid{
+	margin-left: 100px;
+}
+.basiclastname{
+margin-left: 50px;
+}
+
+#basicinfo3{
+	width: 300px;
+	margin-left: 100px;
+}
+#personalinfo1{
+	width: 300px;
+}
+#personalinfo2{
+	width: 300px;
+	margin-left: 50px;
+}
+#personalinfo3{
+	width: 300px;
+	margin-left: 100px;
+
+	writing-mode: horizontal-tb;
+}
+#personalinfo4{
+	width: 300px;
+}
+#personalinfo5{
+	width: 300px;
+	margin-left: 50px;
+}
+#personalinfo6{
+	width: 300px;
+	margin-left: 100px;
+
+	writing-mode: horizontal-tb;
+}
+.personalcontact{
+	margin-left: 50px;
+}
+.personalcity{
+	margin-left: 100px;
+}
+.personaladdress{
+	margin-left: 50px;
+}
+.personalzip{
+	margin-left: 100px;
+}
+
+#personalinfo7{
+	width: 300px;
+}
+
+#personalinfo8{
+	width: 300px;
+	margin-left: 50px;
+}
+.personaldevice{
+	margin-left: 50px;
+}
+
+#social1{
+	width: 300px;
+}
+#social2{
+	width: 300px;
+	margin-left: 50px;
+}
+
+#social3{
+	width: 300px;
+	margin-left: 100px;
+}
+.socialfacebook{
+	margin-left: 50px;
+}
+.socialrating{
+	margin-left: 100px;
+}
+
+
+.bio{
+	margin-left: 35px;
+	height: 20px;
+	width: 400px;
+	border-style:solid;
+	border-color: #bdb8b8;
+	margin-top:5px ;
+	cursor:default;
+	
+
+}
+.bioo{
+	margin-left: 35px;
+	height: 140px;
+	width: 450px;
+	margin-top:15px ;
+	cursor:default;
+	
+
+}
+.bi{
+	height: 130px;
+	width: 450px;
+}
+
+.image{ 
+        border-radius: 90%; 
+        width: 150px;
+        height: 140px;
+    
+}
+
+.cd {
+	width: 75%;
+	padding-left: 16px;
+	padding: 24px 32px 0;
+	cursor: default;
+	scroll-behavior: auto;
+}
+
+.deletebtn{
+    background-color: #FFE55C;
+    position:absolute;
+    top: 50px; 
+    right:50px;
+}
+
+.donebtn{
+    background-color: #FFE55C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+.button{
+    padding: 0px 600px;
+    // align-items: center;
+	margin-left: -80px;
+
+}
+  
+
+.oKZoMVVV{
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: -10px;
+	background-color: #FFE55C;
+	color: rgb(63, 63, 63);
+}
+
+._1w3ZZo {
+	border: 3px solid #e0e0e0;
+	cursor: default;
+}
+
+
+._1w3ZZo:focus {
+	border-color: #2874f0;
+	cursor: default;
+}
+
+
+._1YmvCG {
+	padding: 16px;
+	color: #000000;
+	cursor: default;
+}
+
+._2mFmU7 {
+	height: 50px;
+    border-radius: 5px;
+    background-color:#E8EBEC;
+	cursor: default;
+}
+
+.label {
+	padding-bottom: 24px;
+    
+}
+
+.label ._1mHr1S {
+	font-weight: bold;
+	padding-right: 24px
+}
+
+.label .oKZoMV {
+	font-size: 14px;
+	font-weight: 500;
+	color: #2874f0;
+	cursor: pointer
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+#dlt{
+	background-color: #FFE55C;
+	margin-top: 40px ;
+	
+}
+#yesbtn{
+	background-color: #fff;
+	color: #000;
+	width: 200px;
+	margin-bottom: 10px;
+	border-color: #ffff;
+	border-radius: 0;
+	font-weight: 500;
+}
+#nobtn{
+	background-color: #fff;
+	color: #000;
+	margin-right: 30px;
+	width: 200px;
+	margin-bottom: 10px;
+	border-color: #ffff;
+	border-radius: 0;
+	font-weight: 500;
+}

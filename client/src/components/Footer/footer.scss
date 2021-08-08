@@ -1,0 +1,43 @@
+@import '../../responsive.scss';
+footer {
+    background-color: #ffe55c;
+    .container-fluid {
+        padding: 5rem 0;
+        .row {
+            .logo {
+                width: 20rem;
+                @include responsive(tablet) {
+                    width: 18rem;
+                }
+                @include responsive(mobile) {
+                    width: 12rem;
+                }
+                @include responsive(mobile-small) {
+                    width: 10rem;
+                }
+            }
+            .social-links {
+                img {
+                    width: 3rem;
+                    height: 3rem;
+                    margin-right: 1.5rem;
+                }
+            }
+            .footer-join-links {
+                color: #444444 !important;
+                line-height: 2rem;
+                img {
+                    margin-left: 1rem;
+                    width: 3%;
+                }
+            }
+        }
+    }
+}
+
+// .move-bottom {
+//     position: absolute;
+//     bottom: -45rem;
+//     // margin-top: 50rem;
+//     width: 100%;
+// }
